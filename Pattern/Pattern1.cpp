@@ -30,7 +30,14 @@ for (int i = 1 ; i<=n ; i++){
         std::cout<<std::endl;
     }
     */
-
+/*int row , col;
+for (int row = 1; row<=5 ; row=row+1){
+    for(int col = 1 ; col <= 5 ; col=col+1){
+        std::cout<<col<<" ";
+    }
+    std::cout<<std::endl;
+}
+*/
 
 
 
