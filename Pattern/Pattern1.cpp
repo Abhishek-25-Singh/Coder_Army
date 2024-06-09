@@ -11,7 +11,6 @@
 
 int main(){
 
-/*
 int n;
 std::cout<<"enter The Value of n:";
 std::cin>>n;
@@ -22,6 +21,15 @@ for (int i = 1 ; i<=n ; i++){
     }
     std::cout<<std::endl;
 }
+   
+  /*int row , col;
+    for (int row = 1 ; row<= 5 ; row++){
+        for(int col = 1 ; col<= 5 ; col++){
+            std::cout<<row<<" ";
+        }
+        std::cout<<std::endl;
+    }
+    */
 
 
 
