@@ -69,6 +69,12 @@ vector <int> V3 = { 1,2,3,4,5,6 }
        cout << "Size of The vnew : " << vnew.size() << endl;
        cout << "Capacity of The vnew : " << vnew.capacity() << endl;
        cout << endl;
-       
+       vnew.erase(vnew.begin() + 1); //(Delet the 1st index element) remove the random element from random place
+cout << "Size of The vnew : " << vnew.size() << endl;
+cout << "Capacity of The vnew : " << vnew.capacity() << endl;
+cout << endl;
+for (int i = 0; i < vnew.size(); i++) {
+    std::cout << vnew[i] << " ";
+}
 return EXIT_SUCCESS;
 }
