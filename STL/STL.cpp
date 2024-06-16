@@ -31,7 +31,30 @@ vector <int > V;
 cout << "Size Of The V :" << V.size() <<endl;
 cout << "Capacity of the V : " << V.capacity() << endl;
 cout << endl; 
+       V.push_back(2);
+       cout << "Size Of The V :" << V.size() << endl;
+       cout << "Capacity of the V : " << V.capacity() << endl;
+       cout << endl;
 
+       V.push_back(4);
+       cout << "Size of The V : " << V.size() << endl;
+       cout << "Capacity of The V : " << V.capacity() << endl;
+       cout << endl;
+
+       V.push_back(5);
+       cout << "Size of The V : " << V.size() << endl;
+       cout << "Capacity of The V : " << V.capacity() << endl;
+       cout << endl;
+
+       vector<int> V2(5, 1);
+       cout << "Size of The V : " << V2.size() << endl;
+       cout << "Capacity of The V2 : " << V2.capacity() << endl;
+       cout << endl;
+
+       V2.push_back(2);
+       cout << "Size of The V2 : " << V2.size() << endl;
+       cout << "Capacity of The V2 : " << V2.capacity() << endl;
+       cout << endl;
 
 
 return EXIT_SUCCESS;
