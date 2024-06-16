@@ -80,5 +80,6 @@ for (int i = 0; i < vnew.size(); i++) {
        vnew.clear(); //Remove all the element From the vector
        cout << "Size of The vnew : " << vnew.size() << endl;
        cout << "Capacity of The vnew : " << vnew.capacity() << endl;
+   vnew[1] = 37;
 return EXIT_SUCCESS;
 }
