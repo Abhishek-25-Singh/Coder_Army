@@ -55,7 +55,8 @@ cout << endl;
        cout << "Size of The V2 : " << V2.size() << endl;
        cout << "Capacity of The V2 : " << V2.capacity() << endl;
        cout << endl;
-
+//Intialization
+vector <int> V3 = { 1,2,3,4,5,6 }
 
 return EXIT_SUCCESS;
 }
