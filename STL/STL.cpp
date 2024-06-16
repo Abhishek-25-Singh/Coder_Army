@@ -81,5 +81,13 @@ for (int i = 0; i < vnew.size(); i++) {
        cout << "Size of The vnew : " << vnew.size() << endl;
        cout << "Capacity of The vnew : " << vnew.capacity() << endl;
    vnew[1] = 37;
+   vnew.insert(vnew.begin() + 1,50); //insert the value at random place in the vector
+ cout << "Size of The vnew : " << vnew.size() << endl;
+ cout << "Capacity of The vnew : " << vnew.capacity() << endl;
+ cout << endl;
+ for (int i = 0; i < vnew.size(); i++) {
+     std::cout << vnew[i] << " ";
+ }
+  cout << endl;
 return EXIT_SUCCESS;
 }
