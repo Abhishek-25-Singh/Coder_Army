@@ -25,7 +25,12 @@ vector <int> v(4);
      for (int i = 0; i < v3.size(); i++) {
          std::cout << v3[i] << " ";
      }
+cout << endl;
 
+vector <int > V;
+cout << "Size Of The V :" << V.size() <<endl;
+cout << "Capacity of the V : " << V.capacity() << endl;
+cout << endl; 
 
 
 
