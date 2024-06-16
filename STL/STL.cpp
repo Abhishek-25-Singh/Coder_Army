@@ -57,6 +57,18 @@ cout << endl;
        cout << endl;
 //Intialization
 vector <int> V3 = { 1,2,3,4,5,6 }
-
+       //Delet Value From Vector 
+       vector <int> vnew;
+       vnew.push_back(4);
+       vnew.push_back(41);
+       vnew.push_back(14);
+       vnew.push_back(42);
+       vnew.push_back(84);
+         
+       vnew.pop_back();  // delet last element of the vector
+       cout << "Size of The vnew : " << vnew.size() << endl;
+       cout << "Capacity of The vnew : " << vnew.capacity() << endl;
+       cout << endl;
+       
 return EXIT_SUCCESS;
 }
