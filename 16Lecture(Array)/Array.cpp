@@ -57,5 +57,16 @@ for (int i = 0; i < n; i++) {
 	}
 }
 std::cout << ans;
+
+		//Find the Minimum VAlue from the Array 
+	int arr[] = { 11,22,33,0,44,-8,-4 };
+	int n = sizeof(arr) / sizeof(arr[0]);
+	int ans = INT8_MAX;
+	for (int i = 0; i < n; i++) {
+		if (arr[i] < ans) {
+			ans = arr[i];
+		}
+	}
+	std::cout << ans;
 	return 0;
 }
