@@ -47,5 +47,15 @@ for (int i = 0; i < 10; i++) {
 	std::cout << arr6[i] << " ";
 }
 */
+//Find the Maximumm element from the Array
+	int arr[] = { 11,22,33,880,44,33,111 };
+int n = sizeof(arr) / sizeof(arr[0]);
+int ans = INT8_MIN;
+for (int i = 0; i < n; i++) {
+	if (arr[i] > ans) {
+		ans = arr[i];
+	}
+}
+std::cout << ans;
 	return 0;
 }
