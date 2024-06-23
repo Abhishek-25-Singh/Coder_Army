@@ -31,7 +31,7 @@ for (int i = 0; i < 10  ; i++) {
 for (int i = 0; i < 10; i++) {
 	std::cout<< arr3[i]<<" ";
 }
-*/
+
 /*
 
 int arr4[] = { 0 }; //Valid for 0 not for all value
