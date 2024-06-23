@@ -8,5 +8,6 @@ std::cout << cars[0] << std::endl;
 std::cout << cars[1] << std::endl;
 std::cout << cars[2] << std::endl;
 std::cout << cars[3] << std::endl;
+//std::cout << cars[3] << std::endl;
 	return 0;
 }
